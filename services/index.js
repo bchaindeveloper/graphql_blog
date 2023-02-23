@@ -1,6 +1,5 @@
 import { request, gql } from 'graphql-request';
 
-// const graphqlAPI = 'https://api-us-east-1-shared-usea1-02.hygraph.com/v2/cldvx48xc1wps01rt1grvdqjy/master';
 const graphqlAPI = process.env.NEXT_PUBLIC_GRAPHCMS_ENDPOINT;
 
 export const getPosts = async () => {
