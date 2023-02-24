@@ -48,7 +48,7 @@ const PostCard = ({ post }) => (
       {post.excerpt}
     </p>
     <div className="text-center">
-      <Link href={`/post/${post.slug}`}>
+      <Link href={`/post/${post.slug}`} passHref>
         <span className="transition duration-500 ease transform hover:-translate-y-1 inline-block bg-purple-700 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer">Continue Reading</span>
       </Link>
     </div>
