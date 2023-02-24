@@ -1,8 +1,3 @@
-/** @type {ImportAssertions('next').nextConfig} */
-const nextConfig = {
-  experimental: {
-    appDir: false,
-  },
+module.exports = {
+  reactStrictMode: true,
 };
-
-module.exports = nextConfig;

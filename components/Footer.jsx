@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -12,7 +11,7 @@ const Footer = () => {
         </div>
         <div>
         <a href='https://github.com/bchaindeveloper' alt='GitHub Portfolio' target='_blank' rel="noreferrer">
-            <Image 
+            <img 
                 src='./github-mark-white.svg'  
                 alt='GitHub Logo'
             />
