@@ -2,6 +2,9 @@
 
 This is a blog setup with Next.js, TailwindCSS and GraphQL. The blog has a categories card as well as featured posts accross the top.
 
+## Screenshot:
+![Screenshot](public/screenshot.png)
+
 ## Built with:
 
 First, run the development server:
